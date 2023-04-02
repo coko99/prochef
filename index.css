@@ -1,0 +1,352 @@
+body {
+  font-family: "Montserrat";
+  background-color: #e5e5e5;
+}
+
+.mobile-margin {
+  margin-top: 0px;
+}
+
+.banner {
+  height: 160px;
+  width: 100%;
+}
+/*KONTAKT*/
+.map-container-2 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-2 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.banner-ketering {
+  background: url(img/Banner-ketering.png);
+  background-position: center;
+  background-size: cover;
+}
+.banner-pocetna {
+  background: url(img/Banner.png);
+  background-position: center;
+  background-size: cover;
+}
+.banner-meni {
+  background: url(img/Banner-menu.png);
+  background-position: center;
+  background-size: cover;
+}
+.banner-galerija {
+  background: url(img/banner-galerija.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 350px) {
+  .banner {
+    height: 200px;
+  }
+  .img2 {
+    height: 200px;
+  }
+
+  .more-div {
+    margin-top: 50px;
+  }
+  .section2,
+  .section3 {
+    margin-top: 30px;
+  }
+  .img-sticker {
+    width: 75px;
+  }
+}
+
+@media (min-width: 480px) {
+  .banner {
+    height: 200px;
+  }
+  .img2 {
+    height: 200px;
+  }
+  .section2,
+  .section3 {
+    margin-top: 50px;
+  }
+  .img-sticker {
+    width: 75px;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner-ketering {
+    height: 300px;
+  }
+  .img2 {
+    height: 200px;
+  }
+  .section2,
+  .section3 {
+    margin-top: 100px;
+  }
+  .img-sticker {
+    width: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner {
+    height: 550px;
+  }
+  .img2 {
+    height: 300px;
+  }
+  .section2,
+  .section3 {
+    margin-top: 150px;
+  }
+  .img-sticker {
+    width: 100px;
+  }
+}
+
+.space-letter {
+  letter-spacing: 0.5em;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.section-title {
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-weight: 400;
+  line-height: 58px;
+}
+.letter-behaind {
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 200px;
+  line-height: 10rem;
+  z-index: -1;
+  /* identical to box height */
+
+  color: #f0f0f0;
+}
+.section-paragraf {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  color: #776f60;
+}
+.more-a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+
+  color: #696359;
+}
+
+.title-section4 {
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-weight: 400;
+  line-height: 58px;
+
+  color: #3e3930;
+}
+.p-section4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0.5em;
+  color: #9e9a94;
+}
+.cards-img img {
+  width: 200px;
+}
+.cards-titles {
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-weight: 400;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #3e3930;
+}
+.card-title-color {
+  color: #9e9a94;
+}
+.cards-text-p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 17px;
+  text-align: center;
+}
+
+.gallery-button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.5em;
+  color: #bdb5aa;
+  width: 247px;
+  height: 47px;
+  background: #ffffff;
+  border: 1px solid #bdb5aa;
+}
+
+.apple-android-color {
+  background: #f0f8fa;
+}
+
+.image-android {
+  width: 300px;
+  right: 40vh;
+  overflow: hidden;
+  top: -40px;
+  position: absolute;
+}
+
+.image-android2 {
+  width: 200px;
+  right: 50vh;
+  overflow: hidden;
+  top: -10px;
+  position: absolute;
+}
+
+@media (max-width: 1250px) {
+  .image-android,
+  .image-android2 {
+    display: none;
+  }
+}
+
+.contact-form input {
+  margin: 5px;
+  height: 50px;
+  border: 1px solid #bdb5aa;
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: #bdb5aa;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #bdb5aa;
+  opacity: 1; /* Firefox */
+}
+.footermenu {
+  background: #f4f4f1;
+  text-align: center;
+}
+.footermenu a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0.26em;
+  color: #9e9a94;
+}
+.footermenu p {
+  font-family: "Montserrat";
+  font-style: normal;
+
+  text-align: center;
+  color: #9e9a94;
+}
+footer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  color: #9e9a94;
+}
+
+/*KETERING STRANA*/
+.img1-ketering {
+  width: 100%;
+}
+
+.menu-list {
+  border-bottom: 1px dotted;
+  margin-bottom: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+
+  color: #776f60;
+}
+.menu-list p {
+  margin-bottom: 0;
+}
+.filter-button span {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.25em;
+  color: #776f60;
+}
+.datum {
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0em;
+}
+
+#menu-day {
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-weight: 400;
+  color: #ff7417;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.grami {
+  padding: 5px;
+  background: #ffeaea;
+  border-radius: 10px;
+}
+.grami p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+
+  color: #bdb5aa;
+  margin: auto;
+}
+.ime-proizvoda {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+
+  color: #776f60;
+}
+.cena-proizvoda {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+
+  color: #776f60;
+}

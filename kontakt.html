@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProChef</title>
+    <meta name="description" content="Catering service" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--NAV-->
+    <div class="container-fluid navbar-fixed-top p-4">
+      <nav class="container navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse text-uppercase text-center"
+          id="navbarResponsive"
+        >
+          <ul
+            class="navbar-nav m-auto"
+            style="letter-spacing: 3px"
+            style="letter-spacing: 0.25em"
+          >
+            <li class="nav-item px-4">
+              <a class="nav-link" href="index.html">Početna</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="meni.html">Meni</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="ketering.html">Ketering</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="galerija.html">Galerija</a>
+            </li>
+            <li class="nav-item active px-4">
+              <a class="nav-link text-decoration-underline" href="kontakt.html"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav mr-auto">
+            <li>
+              <a
+                class="nav-link border border-1 px-5"
+                style="color: #bdb5aa; line-height: 18.29px"
+                href="#"
+                >Prijavi se</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--BANNER IMG-->
+    <div class="container-fluid banner banner-galerija"></div>
+    <!--SCROLL-->
+    <div class="containter-fluid">
+      <h4
+        class="text-center pt-5 pb-3 text-uppercase space-letter section-paragraf"
+      >
+        KONTAKT
+      </h4>
+    </div>
+    <!--LINE-->
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6 border-start border-dark pb-5 mb-5"></div>
+      </div>
+    </div>
+
+    <div class="container mt-0 mb-3">
+      <hr />
+      <div class="row section-paragraf">
+        <div class="col-md-6">
+          <p>
+            <strong>telefon:</strong><br />
+            123123123
+          </p>
+          <p>
+            <strong>Email:</strong><br />
+            info@prochef
+          </p>
+          <p>
+            <strong>adresa:</strong><br />
+            ulica<br />
+            grad
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div id="map-container-google-2" class="z-depth-1-half map-container">
+            <iframe
+              src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              style="border: 0"
+              height="300px"
+              width="100%"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--SECTION 6-->
+    <div class="container">
+      <div class="row">
+        <div class="col text-center mt-5">
+          <p class="p-section4">Imate neko pitanje za nas ?</p>
+          <h1 class="title-section4">Kontakt forma</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container contact-form mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Ime i prezime / Naziv firme*"
+          />
+        </div>
+        <div class="col-md-6">
+          <input type="text" name="" id="" placeholder="Email*" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <input type="text" name="" id="" placeholder="Telefon za kontakt*" />
+        </div>
+        <div class="col-md-6">
+          <input type="text" name="" id="" placeholder="Vrsta događaja*" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <input type="text" name="" id="" placeholder="Broj gostiju*" />
+        </div>
+        <div class="col-md-6">
+          <input type="text" name="" id="" placeholder="Datum*" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <input
+            class="top-0 start-0"
+            type="text"
+            name=""
+            id=""
+            placeholder="napomene*"
+          />
+        </div>
+      </div>
+    </div>
+    <!--BUTTON FORM-->
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <button class="gallery-button text-uppercase my-5">Pošalji</button>
+        </div>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <div class="container-fluid footermenu">
+      <div class="row p-4">
+        <div class="col-sm-12 col-md-3 text-center mb-4">
+          <p><a href="#">VENČANJA</a></p>
+          <p><a href="#">DOGAĐAJI</a></p>
+          <p><a href="#">O NAMA</a></p>
+          <p><a href="#">KONTAKT</a></p>
+        </div>
+        <div class="col-sm-12 col-md-3 text-center mb-4">
+          <p><a href="#">FACEBOOK</a></p>
+          <p><a href="#">INSTAGRAM</a></p>
+        </div>
+        <div class="col-sm-12 col-md-3 text-center mb-4">
+          <p><a>RADNO VREME:</a></p>
+          <p>Radno vreme za poručivanje:</p>
+          <p>Ponedeljak - petak od 08:00 do 17:00</p>
+          <p>Radno vreme dostave:</p>
+          <p>Ponedeljak - petak od 10:00 do 16:00</p>
+        </div>
+        <div class="col-sm-12 col-md-3 text-center mb-4">
+          <p><a>ADRESA</a></p>
+          <p>
+            =381 60/011-88-18<br />office@procheff.rs <br />
+            Milorada Petrovića 5a, Beograd
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="text-muted">
+      <!-- Copyright -->
+      <div class="p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+        © 2021. DENSI TEAM, ALL RIGHTS RESERVED
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
